@@ -1,6 +1,6 @@
 #!bin/bash
 songpath=$(find . -type f -name '*.mp3' | shuf -n 1)
-mocp $songpath
+mplayer $songpath
 
 
 
