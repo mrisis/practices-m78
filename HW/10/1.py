@@ -1,6 +1,6 @@
 class Indenter:
     def __init__(self):
-        self.level = 0
+        self.level = -1
 
     def __enter__(self):
         self.level += 1
