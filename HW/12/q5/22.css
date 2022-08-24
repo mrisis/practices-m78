@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+    
+
+
+}
+
+body{
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+.con{
+    position: relative;
+    width: 100%;
+    max-width: 1000%;
+    min-height: 740px;
+    background: white;
+    display: grid;
+    grid-template-columns:1fr 3fr ;
+    box-shadow: 0 35px 55px rgba( 0, 0, 0, 0,.1);
+} 
+
+.con .leftside{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+
+
+}
+
+.proftext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;   
+}
+.proftext h2 span{
+    font-size: 0.5em;
+    font-weight: 200;
+
+
+
+}
+.coninfo{
+    padding-top: 20px;
+
+}
+.contentinfo .icon{
+    display: inline-table;
+    /* width: 20px; */
+    font-size: 18px;
+    color: #fff;
+    margin-left: 30px;
+    
+}
+
+.listof ul{
+    position: relative;
+
+
+}
+.listof ul li {
+    
+    position: relative;
+    list-style: none;
+    margin: 30px 0;
+    cursor: pointer;
+    margin-left: 30px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.proftext h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.4em;
+
+
+
+
+}
+
+.proftext .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+
+}
+
+
+.proftext .imgbox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+
+
+.con .rightside{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    
+
+}
+.aboutme{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    
+    
+     
+
+}
+ .aboutme .resume-download{
+    /* margin-left: 550px;
+    color:white;
+    background-color: blue; */
+    display: block;
+    position: absolute;
+    right: 70px;
+    background: #5655da;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFF;
+    padding: 10px 20px;
+    /* border-radius: 3px */
+
+
+}
+.title2{
+    color: #ca1abb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.para{
+    color: black;
+    font-size: medium;
+    font-weight: 100;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    
+}
+.Specifications{
+    margin-left: 130px;
+    position: relative;
+    list-style: none;
+    /* margin: 30px 0; */
+    /* cursor: pointer; */
+    /* margin-left: 30px; */
+    /* font-weight: 600; */
+    /* color: #fff; */
+    
+
+    
+}
+.Specifications ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.skills{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.sinfo{
+    display: flex;
+    margin-left: 130px;
+}
+
+ .sinfo .faseleh{
+    margin-left: 300px;
+}
+.nemodar{
+  width: 75%;
+  height: 6px;
+  background: gray;
+  display: block;
+  margin-top: 60px;
+  margin-left: 130px;
+  
+}
+.nemodar .rang{
+    width: 80%;
+    height: 100%;
+    background: red;
+}
+
+
