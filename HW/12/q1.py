@@ -26,7 +26,7 @@ class User:
         return self._email
 
 
-    # [a-z0-9]+@[a-z]+\.edu\.[a-z]{2,3}‏
+    # [a-z0-9]+@[a-z]+\.edu\.[a-z]{2,3}
 
     @email.setter
     def email(self, value):
