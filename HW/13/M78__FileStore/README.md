@@ -14,6 +14,7 @@
 
 
 ---
+
 ##Menu explanation:
 
 ```text
@@ -29,6 +30,7 @@ that this section contains several nested sections and from this section both us
 The main part of the menu is this option
 ```
 ---
+
 ##Users section
 
 ![users section](users_section.jpg)
