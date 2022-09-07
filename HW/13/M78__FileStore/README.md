@@ -5,7 +5,7 @@
 
 
 
-##ERD project
+## ERD project
 ![erd project](erd.jpg)
 
 
@@ -27,7 +27,7 @@
 
 
 
-##Menu explanation:
+## Menu explanation:
 
 
 
@@ -51,7 +51,7 @@ The main part of the menu is this option
 
 
 
-##Users section
+## Users section
 
 ![users section](users_section.jpg)
 
@@ -68,7 +68,7 @@ Through login, sellers can add more files to the store or remove a file from the
 
 
 
-##Store database
+## Store database
 
 ```text
 The store database file is ready to be restored in a folder next to the project.
